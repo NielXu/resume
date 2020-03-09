@@ -2,35 +2,15 @@ import React, { Fragment } from 'react';
 
 export const work = [
     {
-        title: 'Full Stack Software Developer',
-        role: 'Verto Inc.',
-        date: 'Sep 2017 - Present',
+        title: 'Automation Developer',
+        role: 'FleetComplete',
+        date: 'May 2019 - Dec 2019',
         details: [
-            'Built an Active Record library on the HL7 FHIR standard with Python, which allowed developers to easily access patient health information programmatically.',
-            'Led the development of the company\'s core infrastructure with Ruby on Rails, Python, and Redis workers to enable applications to scale up for more users.',
-            'Eliminated the need for developers to create customized clinical forms by building a dynamic form renderer and a form builder with an intuitive drag and drop interface in Angular, saving the company over 2 weeks of developer time per implementation.',
-            'Decreased time spent by Operations team to deploy by 80% by replacing legacy scripts with Docker and Ansible.',
-            'Commended for consistently delivering clean and well-structured code at double the speed of other developers on the team.',
-        ]
-    },
-    {
-        title: 'Computer Science Teaching Assistant',
-        role: 'University of Toronto',
-        date: 'Sep 2019 - Apr 2020',
-        details: [
-            'Taught students advanced design patterns and agile methodologies, resulting in a 95% average for supervised students.',
-            'Introduced students to enterprise level deploying patterns (Github Actions, Ansible, Kubernetes) and site reliability engineering principles in a third-year course focusing on Web.',
-            'Managed and advised students on making open source contributions on popular projects such as pdf.js (Javascript), Firefox Focus and Minecraft Forge (Java) through a thorough understanding of the open source project architecture.'
-        ]
-    },
-    {
-        title: 'Developer Intern',
-        role: 'Paradigm Corporation Limited',
-        date: 'Jun 2016 - Aug 2016',
-        details: [
-            'Saved two days of manual work per site by automatically synchronizing freight shipment data between places for over a million database records.',
-            'Automated the workflow of generating serial numbers for shipments using a configurable client defined format.',
-            'Created the ability for users to perform real-time note taking in the application’s web interface and allow for future reference.'
+            'Built an all-in-one testing framework using JavaScript, Appium and  Allure, which allowed developers to write tests and run them on both Apple, Android and Web platforms. Greatly reduce their time on manual testing and help to make testing more efficient.',
+            'Identified potential bugs in the softwares and resolved defects reported by clients as soon as possible to increase client satisfaction.',
+            'Deployed jobs on Jenkins server to trigger tests on every update and build the apps and publish them automatically, or report any issue that was found by email. Automated the whole workflow to reduce time spent on building and configuring.',
+            'Visualized test reports using Allure and helped the development team to quickly find the issues and possible causes.',
+            'Deliverd high-quality software products on different platforms constantly by writing reuseable automated tests.',
         ]
     },
 ];
